@@ -1,10 +1,7 @@
 
 package com.mycompany.facotrydesignpattern;
 
-/**
- *
- * @author MoaathAlrajab
- */
+
 public class CRTTV implements TV{
 
     @Override

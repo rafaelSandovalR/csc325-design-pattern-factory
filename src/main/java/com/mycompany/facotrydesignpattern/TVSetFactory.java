@@ -1,14 +1,12 @@
  
 package com.mycompany.facotrydesignpattern;
 
-/**
- *
- * @author MoaathAlrajab
- */
+
 public class TVSetFactory {
     
     public TV getInstance(String str){
         
+        // creates a specific tv object based on input
         switch (str){
             case "4K":
             case "8K":
